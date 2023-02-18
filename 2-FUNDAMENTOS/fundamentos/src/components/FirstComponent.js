@@ -1,8 +1,11 @@
+import MyComponent from "./MyComponent";
+
 // arquivos de estilo
 const FirstComponent = () => {
     //essa funçao faz isso
     
-    /*muiti line
+    /*
+    muiti line
     */
     return(
       
@@ -10,6 +13,7 @@ const FirstComponent = () => {
              {/*algum comentario */}
         <h1>Meu primeiro componente</h1>
         <p className="teste">Meu texto</p>
+        <MyComponent />
         </div>
     );
 };
