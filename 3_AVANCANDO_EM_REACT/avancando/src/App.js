@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import f7 from './assets/f7.jpg';
+import ManageData from './components/ManageData';
+import ListRender from './components/ListRender';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <div>
         <img src={f7} alt="cidade" />
       </div>
+      <ManageData/>
+      <ListRender/>
     </div>
   );
 }
