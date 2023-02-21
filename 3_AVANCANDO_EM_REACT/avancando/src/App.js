@@ -3,6 +3,7 @@ import './App.css';
 import f7 from './assets/f7.jpg';
 import ManageData from './components/ManageData';
 import ListRender from './components/ListRender';
+import ConditionalRender from './components/ConditionalRender';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </div>
       <ManageData/>
       <ListRender/>
+      <ConditionalRender/>
     </div>
   );
 }
