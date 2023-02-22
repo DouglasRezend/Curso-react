@@ -33,12 +33,12 @@ function App() {
     setMessage(msg);
   };
 
-  const users = [
-    {id: 1, name:"Douglas", job:"Programador", age: 26},
-    {id: 2, name:"Adriana", job:"Designer de interiores", age: 29},
-    {id: 3, name:"Neia", job:"cozinheira", age: 52},
-    {id:4, name:"Pedro",job:"Estudante", age:17}
-  ]
+ const users = [
+  {id:1, name:"Douglas", job:"Programador",age:26},
+  {id:2, name:"Adriana", job:"Designer de interiores",age:29},
+  {id:3, name:"Neia", job:"Cozinheira",age:52},
+  {id:4, name:"Pedro", job:"Estudante",age:17}
+ ]
 
   return (
     <div className="App">
